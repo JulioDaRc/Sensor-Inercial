@@ -41,7 +41,7 @@ void loop() {
   GyY = GyY + 260;
   GyZ = GyZ + 510;
 
-
+//Se calculan velocidades en rad/s
 float GxRad=(GyX/131.0)*(3.1416/180.0);
 float GyRad=(GyY/131.0)*(3.1416/180.0);
 float GzRad=(GyZ/131.0)*(3.1416/180.0);
