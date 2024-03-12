@@ -23,6 +23,7 @@ void loop() {
   AcY = Wire.read() << 8 | Wire.read(); // Aceleración en Y
   AcZ = Wire.read() << 8 | Wire.read(); // Aceleración en Z
 
+  //Calibracion del sensor
    AcX=AcX-1000;
    AcY=AcY-200;
 
